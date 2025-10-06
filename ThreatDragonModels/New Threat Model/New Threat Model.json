@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "20c49de7-1e9f-4c9a-a96b-6f6de09bb340",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
@@ -158,6 +158,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -241,7 +242,6 @@
               ]
             },
             "id": "5b433206-b989-4933-96fa-bdad23931871",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Authorization\nProvider",
@@ -278,6 +278,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -361,7 +362,6 @@
               ]
             },
             "id": "e20c5f76-7377-4fbf-b737-1d811a854d71",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Web Application",
@@ -401,6 +401,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -484,7 +485,6 @@
               ]
             },
             "id": "cb19c103-727f-4de0-b3f9-20f75e6840b8",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "LDAP",
@@ -521,6 +521,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -604,7 +605,6 @@
               ]
             },
             "id": "b3db3b33-60a6-449c-8c6f-be89ca321cf0",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "SQL Database",
@@ -1237,8 +1237,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "55827a89-e2bb-4a8d-bcd2-53ab41353041",
             "zIndex": 11,
+            "id": "55827a89-e2bb-4a8d-bcd2-53ab41353041",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
@@ -1261,8 +1261,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "cc52d071-b6d7-4c87-a69a-37f8f1fc50e4",
             "zIndex": 12,
+            "id": "cc52d071-b6d7-4c87-a69a-37f8f1fc50e4",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
@@ -1285,8 +1285,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "6b7dcb40-f7a2-4bdd-80a0-9a9d1632d40d",
             "zIndex": 13,
+            "id": "6b7dcb40-f7a2-4bdd-80a0-9a9d1632d40d",
             "data": {
               "type": "tm.Text",
               "name": "Elevation of Privilege",
@@ -1309,8 +1309,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "2aeb5fe0-880c-4723-b39f-da896ca7cf8b",
             "zIndex": 14,
+            "id": "2aeb5fe0-880c-4723-b39f-da896ca7cf8b",
             "data": {
               "type": "tm.Text",
               "name": "Tampering with the Data \nUsing the SQL Injection Attack",
@@ -1333,8 +1333,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "8566e306-0d0c-4d10-a45a-104dea0d2400",
             "zIndex": 15,
+            "id": "8566e306-0d0c-4d10-a45a-104dea0d2400",
             "data": {
               "type": "tm.Text",
               "name": "Spoofing",
